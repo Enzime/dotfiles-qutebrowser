@@ -4,3 +4,9 @@
 !/.config/qutebrowser/base
 !/.config/qutebrowser/base/keys.conf
 !/.config/qutebrowser/base/qutebrowser.conf
+!/.config/qutebrowser/default
+!/.config/qutebrowser/default/config
+!/.config/qutebrowser/default/config/keys.conf
+!/.config/qutebrowser/default/config/qutebrowser.conf
+!/.gitignore.d
+!/.gitignore.d/qutebrowser
