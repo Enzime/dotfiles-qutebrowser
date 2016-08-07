@@ -1,5 +1,6 @@
 *
 !/.config
 !/.config/qutebrowser
-!/.config/qutebrowser/keys.conf
-!/.config/qutebrowser/qutebrowser.conf
+!/.config/qutebrowser/base
+!/.config/qutebrowser/base/keys.conf
+!/.config/qutebrowser/base/qutebrowser.conf
