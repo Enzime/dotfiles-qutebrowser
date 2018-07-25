@@ -1,12 +1,4 @@
 *
-!/.config
-!/.config/qutebrowser
-!/.config/qutebrowser/base
-!/.config/qutebrowser/base/keys.conf
-!/.config/qutebrowser/base/qutebrowser.conf
-!/.config/qutebrowser/default
-!/.config/qutebrowser/default/config
-!/.config/qutebrowser/default/config/keys.conf
-!/.config/qutebrowser/default/config/qutebrowser.conf
-!/.gitignore.d
+!/.config/qutebrowser/base/config.py
+!/.config/qutebrowser/default/config/config.py
 !/.gitignore.d/qutebrowser
