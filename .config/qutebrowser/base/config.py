@@ -136,11 +136,15 @@ try:
     c.url.searchengines = {
         'DEFAULT': 'https://encrypted.google.com/search?q={}',
         '!g': 'https://encrypted.google.com/search?q={}',
+        '!gi': 'https://encrypted.google.com/search?q={}&tbm=isch',
+        '!gm': 'https://www.google.com/maps/search/{}/',
         '!yt': 'https://www.youtube.com/results?search_query={}',
         '!fb': 'https://www.facebook.com/search/top?q={}',
         '!btn': 'https://broadcasthe.net/series.php?name={}',
         '!nyaa': 'https://nyaa.si/?q={}',
         '!mal': 'https://myanimelist.net/search/all?q={}',
+        '!gh': 'https://github.com/search?q={}',
+        '!nix': 'https://search.nix.gsc.io/?q={}&i=nope&files=&repos=',
     }
 
     c.url.start_pages = ['about:blank']

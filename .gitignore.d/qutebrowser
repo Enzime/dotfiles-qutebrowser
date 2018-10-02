@@ -1,4 +1,6 @@
 *
 !/.config/qutebrowser/base/config.py
+!/.config/qutebrowser/base/quickmarks
 !/.config/qutebrowser/default/config/config.py
+!/.config/qutebrowser/default/config/quickmarks
 !/.gitignore.d/qutebrowser
