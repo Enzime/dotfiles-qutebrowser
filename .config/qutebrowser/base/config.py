@@ -64,9 +64,6 @@ try:
     config.bind('n', 'search-next', mode='normal')
     config.bind('N', 'search-prev', mode='normal')
 
-    config.bind('f', 'hint', mode='normal')
-    config.bind('S', 'hint all tab', mode='normal')
-
     config.bind('A', 'back', mode='normal')
     config.bind('tA', 'back -t', mode='normal')
     config.bind('F', 'forward', mode='normal')
@@ -86,8 +83,11 @@ try:
 
     config.bind('cC', 'tab-clone', mode='normal')
 
-    config.bind(';yi', 'hint images yank', mode='normal')
-    config.bind(';yl', 'hint links yank', mode='normal')
+    config.bind('f', 'hint --rapid', mode='normal')
+    config.bind('S', 'hint --rapid all tab', mode='normal')
+
+    config.bind(';yi', 'hint --rapid images yank', mode='normal')
+    config.bind(';yl', 'hint --rapid links yank', mode='normal')
 
     config.bind(',do', 'download-open', mode='normal')
     config.bind(',dc', 'download-clear', mode='normal')
