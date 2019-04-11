@@ -147,6 +147,7 @@ try:
         '!mal': 'https://myanimelist.net/search/all?q={}',
         '!gh': 'https://github.com/search?q={}',
         '!nix': 'https://search.nix.gsc.io/?q={}&i=nope&files=&repos=',
+        '!t': 'https://todoist.com/app?lang=en#agenda%2F{}',
     }
 
     c.url.start_pages = ['about:blank']
