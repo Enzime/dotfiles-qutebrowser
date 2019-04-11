@@ -86,8 +86,10 @@ try:
     config.bind('f', 'hint --rapid', mode='normal')
     config.bind('S', 'hint --rapid all tab', mode='normal')
 
-    config.bind(';yi', 'hint --rapid images yank', mode='normal')
-    config.bind(';yl', 'hint --rapid links yank', mode='normal')
+    config.bind(';yi', 'hint images yank', mode='normal')
+    config.bind(';yl', 'hint links yank', mode='normal')
+    config.bind(';yri', 'hint --rapid images yank', mode='normal')
+    config.bind(';yrl', 'hint --rapid links yank', mode='normal')
 
     config.bind(',do', 'download-open', mode='normal')
     config.bind(',dc', 'download-clear', mode='normal')
