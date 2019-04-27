@@ -151,6 +151,8 @@ try:
         '!gh': 'https://github.com/search?q={}',
         '!nix': 'https://search.nix.gsc.io/?q={}&i=nope&files=&repos=',
         '!t': 'https://todoist.com/app?lang=en#agenda%2F{}',
+        '!mdbg': 'https://www.mdbg.net/chinese/dictionary?page=worddict&wdrst=0&wdqb={}',
+        '!wc': 'https://dictionary.writtenchinese.com/#sk={}&svt=pinyin',
     }
 
     c.url.start_pages = ['about:blank']
