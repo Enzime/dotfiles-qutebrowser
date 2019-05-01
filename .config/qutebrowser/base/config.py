@@ -143,6 +143,7 @@ try:
         '!g': 'https://encrypted.google.com/search?q={}',
         '!gi': 'https://encrypted.google.com/search?q={}&tbm=isch',
         '!gm': 'https://www.google.com/maps/search/{}/',
+        '!gt': 'https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text={}',
         '!yt': 'https://www.youtube.com/results?search_query={}',
         '!fb': 'https://www.facebook.com/search/top?q={}',
         '!btn': 'https://broadcasthe.net/series.php?name={}',
